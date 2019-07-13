@@ -1,0 +1,36 @@
+19:00:26 <wumpus> #startmeeting
+19:00:26 <lightningbot> Meeting started Thu Jul  4 19:00:26 2019 UTC.  The chair is wumpus. Information about MeetBot at http://wiki.debian.org/MeetBot.
+19:00:26 <lightningbot> Useful Commands: #action #agreed #help #info #idea #link #topic.
+19:00:49 <wumpus> #bitcoin-core-dev Meeting: wumpus sipa gmaxwell jonasschnelli morcos luke-jr sdaftuar jtimon cfields petertodd kanzure bluematt instagibbs phantomcircuit codeshark michagogo marcofalke paveljanik NicolasDorier jl2012 achow101 meshcollider jnewbery maaku fanquake promag provoostenator aj Chris_Stewart_5 dongcarl gwillen jamesob ken281221 ryanofsky gleb moneyball kvaciral
+19:01:12 <sipa> hi
+19:01:14 <wumpus> looks like there have been no proposed meetings for this week in https://gist.github.com/moneyball/071d608fdae217c2a6d7c35955881d8a
+19:01:45 <achow101> hi
+19:01:58 <meshcollider> hi
+19:02:05 <wumpus> any last minute topics?
+19:02:28 <wumpus> #topic high priority for review
+19:03:02 <wumpus> https://github.com/bitcoin/bitcoin/projects/8 5 blockers, still 7 chasing concept ACK
+19:03:25 <wumpus> anything to add, remove, or ready to be merged ?
+19:04:45 <wumpus> ok, seems not
+19:04:55 <meshcollider> Very quiet meeting
+19:05:00 <sipa> sorry i haven't found much time for review; i've been spending a lot of time on improving and implementing miniscript, which i hope will at some point be integratable in bitcoin core
+19:05:01 <wumpus> wheeree is everyone
+19:05:08 <achow101> most americans are probably gone because independence day
+19:05:11 <sipa> wumpus: 4th of july
+19:05:11 <achow101> national holiday
+19:05:15 <wumpus> ohh
+19:05:20 <sipa> FREEDOM DAY
+19:05:49 <wumpus> freedom from meetings
+19:06:38 <sipa> in general yes :)
+19:06:51 <wumpus> short meeting then :)
+19:07:00 <dongcarl> #15759 is somewhat ready for merge I think
+19:07:01 <dongcarl> Only nits
+19:07:02 <gribble> https://github.com/bitcoin/bitcoin/issues/15759 | [p2p] Add 2 outbound blocks-only connections by sdaftuar · Pull Request #15759 · bitcoin/bitcoin · GitHub
+19:07:09 <wumpus> dongcarl: thanks!
+19:07:34 <sipa> oh exciting
+19:07:48 <dongcarl> exciting indeed
+19:08:34 <wumpus> dongcarl: it wasn't entirely clear to me what was the conclusion of jeremyrubin's experiments there
+19:09:20 <wumpus> but I see now it's in line with expectations, that's great
+19:10:04 <dongcarl> :-)
+19:10:39 <wumpus> looks like the only open comment is some silly remark about braces
+19:11:14 <wumpus> ok, any other topics ?
+19:12:20 <wumpus> #endmeeting
