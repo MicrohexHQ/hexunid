@@ -1,1 +1,22 @@
 # 禅
+--------------------------------
+
+十 ten, tenth; complete; perfect
+六 number six
+進 advance, make progress, enter
+制 system; establish; overpower
+ 
+主 master, chief owner; host; lord
+要 necessary, essential; necessity
+指 finger, toe; point, indicate
+令 command, order; 'commandant', magistrate; allow, cause
+ 
+神 spirit, god, supernatural being
+互 mutually, reciprocally
+聯 connect, join; associate, ally
+網 net, web; network
+ 
+測 measure, estimate, conjecture
+試 test, try, experiment
+網 net, web; network
+吧 emphatic final particle
